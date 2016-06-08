@@ -2,10 +2,22 @@ body  {
     margin:50px;
     background-image:url("background.png");
 }
+#logo  {
+    display:block;
+    vertical-align: top;
+    background-image:url("npslogo.png");
+    width:120px;
+    height:81px;
+    padding:0;
+    margin:auto;
+}
 #heading  {
+    display:block;
     background-image:url("heading.png");
     width:904px;
     height:81px;
+    margin:10px;
+    margin-top:0;
     /*
     text-align:center;
     font-family: sans-serif;
@@ -47,11 +59,29 @@ li a:hover  {
 }
 input  {
     display:block;
-    margin:1%;
+    margin:10%;
+}
+#content  {
+    font-size: 1.1em;
+    text-align:center;
+    padding-left:40%;
+    padding-right:40%;
+}
+.cyan-heading  {
+    color:#00ccff;
+    font-weight: bold;
 }
 .signup  {
-    background-color:#0066ff;
+    vertical-align:top;
+    display:inline-block;
+    color:#00ccff;
+    padding:10% 20%;
+    background-image:url("box_bg.jpg");
 }
 .signin  {
-    background-color:#ffcc00;
+    vertical-align:top;
+    display:inline-block;
+    text-align:center;
+    padding:10% 20%;
+    background-image:url("vortex_bg.jpg");
 }

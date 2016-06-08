@@ -23,21 +23,13 @@
             </ul>
         </div>
         <div id="content">
+            <span class="cyan-heading"><h2>Search</h2></span>
             <div class="signup">
                 <form action="home.php">
                     Name: <input name ="name" type="text"/>      
                     Admission Number<input name = "admission" type="text"/>
                     Email Address<input name ="email" type="text"/>
-                    Password<input name = "password" type="text">
-                    Confirm password<input name = "confirm" type="text"/>
-                    <button name = "submit" type="submit">Sign up</button>
-                </form>
-            </div>
-            <div class="signin">
-                <form action="home.php">
-                    Email Address<input name ="email" type="text"/>
-                    Password<input name ="password" type="text"/>
-                    <button name ="submit" type="submit">Sign in</button>
+                    <button name = "submit" type="submit">Search</button>
                 </form>
             </div>
         </div>
